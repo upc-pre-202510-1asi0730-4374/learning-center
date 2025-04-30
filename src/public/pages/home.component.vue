@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-
+Welcome homepage
 </template>
 
 <style scoped>

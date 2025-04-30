@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-
+About us
 </template>
 
 <style scoped>
