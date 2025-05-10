@@ -43,6 +43,9 @@ const app = createApp(App);
 
 // PrimeVue
 app.use(PrimeVue, { theme: { preset: Aura }, ripple: true })
+    .use(ConfirmationService)
+    .use(DialogService)
+    .use(ToastService)
     .component('pv-button',         Button)
     .component('pv-card',           Card)
     .component('pv-column',         Column)
