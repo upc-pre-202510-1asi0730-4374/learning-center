@@ -5,7 +5,6 @@
 
 import {createRouter, createWebHistory} from "vue-router";
 
-
 /**
  * @description Lazy-loaded component imports for route configuration
  * Using dynamic imports to enable code splitting and improve initial load performance
