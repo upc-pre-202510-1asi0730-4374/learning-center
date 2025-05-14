@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import './style.css';
 import App from './App.vue';
 import PrimeVue from 'primevue/config';
-import Aura from '@primevue/themes/Aura';
+import Material from '@primevue/themes/Material';
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
 import {
@@ -43,7 +43,7 @@ import router from "./router/index.js";
 const app = createApp(App);
 
 // PrimeVue
-app.use(PrimeVue, { theme: { preset: Aura }, ripple: true })
+app.use(PrimeVue, { theme: { preset: Material }, ripple: true })
     .use(ConfirmationService)
     .use(DialogService)
     .use(ToastService)
