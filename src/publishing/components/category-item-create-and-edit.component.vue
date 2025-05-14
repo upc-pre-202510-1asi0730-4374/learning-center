@@ -24,7 +24,9 @@ export default {
      * @type {Boolean}
      * @description Controls the visibility of the dialog
      */
-    visible: false
+    visible: false,
+
+    edit: false,
   },
 
   /**
